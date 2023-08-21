@@ -1,0 +1,15 @@
+<div>
+    <label>Text 1:</label>
+    <mat-form-field class="example-form-field">
+        <input matInput type="text" [(ngModel)]="text1" (input)="compareText()">
+    </mat-form-field>
+</div>
+<div>
+    <label>Text 2:</label>
+    <mat-form-field class="example-form-field">
+        <input matInput type="text" [(ngModel)]="text2" (input)="compareText()">
+    </mat-form-field>
+</div>
+<div *ngIf="differences">
+    <button mat-flat-button [innerHTML]="differences"></button>
+</div>

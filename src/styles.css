@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.highlight {
+    background-color: yellow;
+    /* Adjust to your desired highlight color */
+}
+
+.custom-holiday {
+    background-color: rgba(128, 128, 128, 0.27) !important;
+    border-radius: 50%;
+}
+
+.mat-calendar .mat-calendar-next-button,
+.mat-calendar .mat-calendar-previous-button {
+    display: none !important;
+}
+
+.custom-calendar .mat-calendar-header {
+    text-align: center;
+}
+
+.mat-calendar-header {
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+}
+
+.mat-calendar-arrow {
+    display: none!important;
+}

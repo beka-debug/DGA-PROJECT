@@ -1,0 +1,17 @@
+.custom-calendar {
+    max-width: 600px;
+    margin: auto;
+}
+
+.custom-calendar mat-calendar-body mat-calendar-cell {
+    border: 1px solid black;
+}
+
+.custom-holiday {
+    background-color: red !important;
+}
+
+.mat-calendar .mat-calendar-next-button,
+.mat-calendar .mat-calendar-previous-button {
+    display: none!important;
+}
