@@ -33,7 +33,9 @@ body {
     justify-content: center;
     pointer-events: none;
 }
-
+.mat-calendar-header span{
+    font-size: 30px;
+}
 .mat-calendar-arrow {
     display: none!important;
 }
